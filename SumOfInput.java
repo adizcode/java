@@ -21,12 +21,11 @@ public class SumOfInput {
 		
 		// Request user input till total sum exceeds 100
 		do {
+			// Create temporary variable
+			int temp = 0;
 			
 			// Display value of sum before new input
 			System.out.print("\nSum = " + sum + " + ");
-			
-			// Create temporary variable
-			int temp = 0;
 			
 			// Read user input and parse it into an integer
 			try {
@@ -49,7 +48,7 @@ public class SumOfInput {
 			
 		} while (sum < 101);
 		
-		// Close the input stream
+		// Close input stream
 		input.close();
 		
 		// Display response message
