@@ -36,16 +36,13 @@ public class PrimeNumber {
 			
 		} while (num < 1);
 		
-		// Leave 2 out as it's the only even prime number
-		if (num != 2) {
-    
-			// Check if number has any trivial divisors
-			for (int i = 2; i <= num/2; i++) {
-				if (num % i == 0) {
-        
-					// Mark number as composite
-					isPrime = false;
-				}
+		// Check if number has any trivial divisors
+		for (int i = 2; i <= num/2; i++) {
+			if (num % i == 0) {
+
+				// Mark number as composite and end loop
+				isPrime = false;
+				break;
 			}
 		}
 		
