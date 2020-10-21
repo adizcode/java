@@ -1,5 +1,5 @@
 /*
- * Program: Array Of Points
+ * Program: Array Of Points (1-20)
  * Author: adizcode a.k.a Advitiay Anand
  */
 
